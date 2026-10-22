@@ -1,0 +1,14 @@
+Algoritmo controlTanque
+    Definir litros Como real
+    Escribir "Ingrese la cantidad de litros actuales del tanque"
+    Leer litros
+    Si litros < 250 Entonces
+        Escribir "Abra la llave"
+    FinSi
+    Si litros > 450 Entonces
+        Escribir "Cierre la llave"
+    FinSi
+    Si litros >=250 Y litros <=450 Entonces
+        Escribir "Mantenga la llave como está"
+    FinSi
+FinAlgoritmo

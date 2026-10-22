@@ -1,0 +1,14 @@
+Algoritmo verificarPrimo0a20
+    Definir n Como entero
+    Escribir "Ingrese un n entero entre 0 y 20"
+    Leer n
+    Si n >=0 Y n <=20 Entonces
+        Si n=2 O n=3 O n=5 O n=7 O n=11 O n=13 O n=17 O n=19 Entonces
+            Escribir "El número es primo"
+        Sino
+            Escribir "El número NO es primo"
+        FinSi
+    Sino
+        Escribir "El número está fuera del rango permitido"
+    FinSi
+FinAlgoritmo
